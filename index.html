@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script>
+
+
+    <script>
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyDuNHeoNgtYfmYofr8PO3kNJKn678r6Cm8",
+
+            authDomain: "web-and-mobile-fcd9f.firebaseapp.com",
+
+            projectId: "web-and-mobile-fcd9f",
+
+            storageBucket: "web-and-mobile-fcd9f.appspot.com",
+            databaseURL: "https://web-and-mobile-fcd9f-default-rtdb.firebaseio.com",
+            messagingSenderId: "174858297248",
+            appId: "1:174858297248:web:1ac618919a680de4eb4ec5",
+            measurementId: "G-D0JDZ34TYN"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+</head>
+
+<body>
+
+
+
+    <div class="read">
+        <input placeholder="Enter todo" type="text" id="todo-item">
+        <button class='color' onclick="addTodo()">ADD ITEM</button>
+        <button class="red" onclick="deleteAll()">DELETE ALL</button>
+    </div>
+
+    <div>
+        <ul id="list">
+
+
+
+        </ul>
+    </div>
+
+    <img class="rod"
+        src="https://st4.depositphotos.com/1642684/23595/v/450/depositphotos_235958346-stock-illustration-vector-illustration-kids-daily-routine.jpg"
+        alt="">
+
+</body>
+<script src="app.js"></script>
+
+
+
+</html>

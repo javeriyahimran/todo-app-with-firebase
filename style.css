@@ -1,0 +1,28 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.btn{
+    background-color: yellowgreen;
+}
+
+.color{
+    background-color: blue;
+}
+
+.red{
+    background-color: brown;
+    
+}
+
+.rod{
+    height: 300px;
+    width: 300px;
+    align-items: right;
+}
+
+.read{
+    height: 100px;
+   
+}
